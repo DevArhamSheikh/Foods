@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    font-family: 'Rubik', sans-serif;
+    border: 2px solidrgb(248, 26, 92);
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+}
+.main{
+    width: 100%;
+    background-image:url(BJPG.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.ownnavber{
+    background-color: white;
+}
